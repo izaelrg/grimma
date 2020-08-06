@@ -1,0 +1,479 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.8 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+
+#mainNav {
+  min-height: 56px;
+  background-color: #fff;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #043E73;
+  border: 1px solid #043E73;
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+
+#mainNav .navbar-brand {
+  color: #161616;
+  font-weight: 700;
+  padding: .9rem 0;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active {
+  color: #FF9300;
+  outline: none;
+}
+
+#mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: white;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    padding: .5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .nav-link {
+    -webkit-transition: none;
+    transition: none;
+    padding: 1.5rem 1.5rem 1.5rem;
+    color: #3097BF;
+  }
+  #mainNav .nav-link:hover {
+    color: #FF9300;
+  }
+  #mainNav .nav-link:active {
+    color: #FF9300;
+    outline: none;
+    border-bottom: 0.25rem solid #FF9300;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #161616;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #3097BF;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #FF9300;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #FF9300;
+    outline: none;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #FF9300;
+    outline: none;
+    border-bottom: 0.25rem solid #FF9300;
+  }
+}
+
+#mainNav .data-header {
+  background-color: red !important;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/ballena_home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-family: 'Lato';
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+}
+
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.data-header {
+  padding: .5rem .5rem;
+}
+
+.data-header a {
+  color: white;
+  font-size: 14px;
+}
+
+.data-header a:hover {
+  color: white;
+}
+
+.data-header a:focus {
+  color: white;
+}
+
+.btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #043E73;
+}
+
+.btn-primary:hover {
+  background-color: #022342;
+}
+
+.btn-primary:focus {
+  background-color: #022342;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #011629 !important;
+}
+
+.btn-donar {
+  background-color: #FF9300;
+  padding: 0.8rem 2rem;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.btn-donar:hover {
+  background-color: #ffa933;
+}
+
+.btn-donar:focus {
+  background-color: #ffa933;
+  color: white;
+}
+
+.btn-donar:active {
+  background-color: #ffb34d !important;
+}
+
+.btn-blog {
+  color: #FF9300;
+}
+
+.btn-blog:hover {
+  color: #ffa933;
+}
+
+.btn-blog:focus {
+  color: #ffa933;
+}
+
+.btn-blog:active {
+  color: #ffb34d !important;
+}
+
+.btn-form {
+  color: white;
+  border: 1px solid white;
+  padding: 0.5em 1.5em;
+}
+
+.btn-form:hover {
+  background-color: white;
+  color: #043E73;
+}
+
+.btn-form:focus {
+  background-color: white;
+  color: #043E73;
+}
+
+.btn-form:active {
+  background-color: white;
+  color: #043E73;
+}
+
+.btn-footer {
+  background-color: #043E73;
+  color: white;
+  padding: 1em 1.5em;
+}
+
+.btn-footer:hover {
+  background-color: #022342;
+  color: white;
+}
+
+.btn-footer:focus {
+  background-color: #022342;
+  color: white;
+}
+
+.btn-footer:active {
+  background-color: #011629 !important;
+}
+
+.about-section {
+  padding-top: 10rem;
+  background: white;
+}
+
+.about-section p {
+  color: #354047;
+}
+
+.projects-section {
+  padding: 10rem 0;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #043E73;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #043E73;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+.signup-section {
+  width: 100%;
+  max-height: 682px;
+  padding: 20rem 0;
+  background: url("../img/galeria_ballena.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.signup-section h2 {
+  font-size: 1.3em;
+}
+
+.signup-section .form-inline input {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.blog-section {
+  padding: 10rem 0;
+}
+
+.blog-section .title-blog {
+  color: #043E73;
+  font-size: 1.75em;
+}
+
+.blog-section .blog-date {
+  color: #777777;
+  font-size: 1em;
+}
+
+.contact-section {
+  padding: 5rem 0 0;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #043E73;
+}
+
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  border-color: #043E73;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-section .social a:active {
+  color: #fff;
+}
+
+body {
+  font-family: 'Lato';
+  letter-spacing: 0.0625em;
+}
+
+h2 {
+  color: #005B7B;
+  font-size: 2.5em;
+}
+
+.title {
+  color: #3097BF;
+  font-size: .5em;
+}
+
+h3 {
+  color: #005B7B;
+}
+
+a {
+  color: #043E73;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #010910;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #043E73 !important;
+}
+
+.text-primary {
+  color: #043E73 !important;
+}
+
+footer {
+  padding-top: 10rem;
+  color: #354047;
+}
+
+footer hr {
+  border-top: 1px solid #3097BF;
+}
+
+footer li {
+  list-style: none;
+}
+
+@media (max-width: 992px) {
+  .data-header ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .data-header ul li {
+    padding-right: 1em;
+  }
+  .data-header span {
+    display: none;
+  }
+  .data-header .languages {
+    padding-right: .6em !important;
+  }
+}
